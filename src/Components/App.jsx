@@ -8,7 +8,7 @@ import SignUp from './Pages/SignUp'
 
 export default function App() {
 
-    const [editing, setEditing] = useState(false)
+    const [editing, setEditing] = useState(true)
 
     return (
         <>
