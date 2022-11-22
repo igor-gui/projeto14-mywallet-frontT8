@@ -1,7 +1,14 @@
-import Insert from "../Style/Insert";
-import Registers from "../Style/Registers";
-import StyledHome from "../Style/StyledHome";
+import Insert from "../style/Insert";
+import Registers from "../style/Registers";
+import StyledHome from "../style/StyledHome";
 export default function Home({ editing, setEditing }) {
+
+    const entrada = 'entrada';
+    const saida = 'saída';
+
+    function goToEdit(string){
+        setEditing(string)
+    }
 
     return (
         <StyledHome>
@@ -19,14 +26,14 @@ export default function Home({ editing, setEditing }) {
 
             <Insert className="buttons">
 
-                <div className="insert">
+                <div onClick={() => goToEdit(entrada)} className="insert">
                     <ion-icon name="add-circle-outline"></ion-icon>
-                    Nova entrada
+                    Nova {entrada}
                 </div>
 
-                <div className="insert">
+                <div onClick={() => goToEdit(saida)} className="insert">
                     <ion-icon name="remove-circle-outline"></ion-icon>
-                    Nova saída
+                    Nova {saida}
                 </div>
 
             </Insert>

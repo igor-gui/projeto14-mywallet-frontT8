@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { backGroundMobi, typoH1, majorTextColor } from "../Style/Patterns";
+import { backGroundMobi, typoH1, majorTextColor } from "./Patterns";
 
 const StyledHome = styled.main`
     ${ backGroundMobi }

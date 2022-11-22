@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import Formu from '../Style/Formu'
-import UserForm from '../Style/UserForm'
+import Formu from '../style/Formu'
+import UserForm from '../style/UserForm'
 export default function SignIn() {
 
     return (

@@ -6,6 +6,8 @@ const EditStyle = styled.main`
     h1 {
         margin-top: 25px;
         margin-bottom: 40px;
+        width: 326px;
+        
         ${typoH1}
     }
     

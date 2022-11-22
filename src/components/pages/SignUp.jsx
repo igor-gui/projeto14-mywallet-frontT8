@@ -1,6 +1,6 @@
-import UserForm from "../Style/UserForm";
+import UserForm from "../style/UserForm";
 import { Link } from 'react-router-dom'
-import Formu from "../Style/Formu";
+import Formu from "../style/Formu";
 
 export default function SignUp() {
     return (
